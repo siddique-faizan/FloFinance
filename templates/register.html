@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}Register - FloFinance{% endblock %}
+
+{% block content %}
+<div style="max-width:380px; margin: 40px auto;">
+  <h2 style="margin-bottom:4px;">Create account</h2>
+  <p style="color:#666; margin-bottom:20px; font-size:13px;">Already registered? <a href="{{ url_for('login') }}" style="color:#2563eb;">Sign in</a></p>
+  <div class="card">
+    <form method="POST">
+      <label>Username</label>
+      <input type="text" name="username" placeholder="faizan" required>
+      <label>Email</label>
+      <input type="email" name="email" placeholder="you@email.com" required>
+      <label>Password</label>
+      <input type="password" name="password" placeholder="••••••••" required minlength="6">
+      <br><br>
+      <button type="submit" class="btn btn-primary" style="width:100%;">Create account</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

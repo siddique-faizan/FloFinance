@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}FloFinance - Personal Finance Tracker{% endblock %}
+
+{% block content %}
+<div style="text-align:center; padding: 48px 24px;">
+  <h1 style="font-size:1.8rem; margin-bottom:12px;">Personal Finance Tracker</h1>
+  <p style="color:#666; margin-bottom:24px; max-width:400px; margin-left:auto; margin-right:auto;">
+    Track your expenses and get ML-powered predictions for next month's spending.
+  </p>
+  <a href="{{ url_for('register') }}" class="btn btn-primary">Get started</a>
+  <a href="{{ url_for('login') }}" class="btn btn-ghost" style="margin-left:10px;">Sign in</a>
+</div>
+
+<div style="display:grid; grid-template-columns: repeat(3,1fr); gap:16px; margin-top:32px;">
+  <div class="card">
+    <h3 style="margin-bottom:8px;">📊 Expense tracking</h3>
+    <p style="color:#666; font-size:13px;">Log expenses by category and view interactive spending charts.</p>
+  </div>
+  <div class="card">
+    <h3 style="margin-bottom:8px;">🤖 ML prediction</h3>
+    <p style="color:#666; font-size:13px;">Linear Regression model predicts next month's total spending.</p>
+  </div>
+  <div class="card">
+    <h3 style="margin-bottom:8px;">📈 Spending trends</h3>
+    <p style="color:#666; font-size:13px;">See actual vs predicted spending over time.</p>
+  </div>
+</div>
+{% endblock %}
