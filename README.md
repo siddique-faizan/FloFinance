@@ -1,4 +1,4 @@
-# FloFinance — Personal Finance Tracker with ML Prediction
+# FloFinance - Personal Finance Tracker with ML Prediction
 
 A full-stack web application for tracking personal expenses with machine learning powered spending predictions.
 
