@@ -8,16 +8,16 @@ A full-stack web application for tracking personal expenses with machine learnin
 - Add expenses by category - Food, Transport, Housing, Entertainment, Health, Shopping, Education
 - Interactive charts - category doughnut, bar chart breakdown
 - ML prediction - Linear Regression model trained on spending history predicts next month's expenses
-- Actual vs predicted spending graph — visualises model accuracy over time
+- Actual vs predicted spending graph - visualises model accuracy over time
 - Persistent SQLite database via SQLAlchemy ORM
 
 ## Tech Stack
 
-- **Backend** — Flask, SQLAlchemy, Flask-Login
-- **ML** — Scikit-learn (Linear Regression), NumPy
-- **Frontend** — HTML, CSS, JavaScript, Chart.js
-- **Database** — SQLite
-- **Deployment** — Railway
+- **Backend** - Flask, SQLAlchemy, Flask-Login
+- **ML** - Scikit-learn (Linear Regression), NumPy
+- **Frontend** - HTML, CSS, JavaScript, Chart.js
+- **Database** - SQLite
+- **Deployment** - Railway
 
 ## Setup
 
@@ -36,4 +36,4 @@ Monthly spending totals are extracted from the database and used as training dat
 
 Deployed live on Railway. Connected via GitHub for automatic deployments on push.
 
-Independent project — built as part of a full-stack and ML learning journey.
+Independent project - built as part of a full-stack and ML learning journey.
