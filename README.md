@@ -4,10 +4,10 @@ A full-stack web application for tracking personal expenses with machine learnin
 
 ## Features
 
-- User authentication — register, login, logout with hashed passwords
-- Add expenses by category — Food, Transport, Housing, Entertainment, Health, Shopping, Education
-- Interactive charts — category doughnut, bar chart breakdown
-- ML prediction — Linear Regression model trained on spending history predicts next month's expenses
+- User authentication - register, login, logout with hashed passwords
+- Add expenses by category - Food, Transport, Housing, Entertainment, Health, Shopping, Education
+- Interactive charts - category doughnut, bar chart breakdown
+- ML prediction - Linear Regression model trained on spending history predicts next month's expenses
 - Actual vs predicted spending graph — visualises model accuracy over time
 - Persistent SQLite database via SQLAlchemy ORM
 
