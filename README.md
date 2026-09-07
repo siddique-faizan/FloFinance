@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Visit `http://localhost:5000`
+Visit `http://localhost:5000` or visit https://web-production-57d8d.up.railway.app (deployed link)
 
 ## How the ML prediction works
 
